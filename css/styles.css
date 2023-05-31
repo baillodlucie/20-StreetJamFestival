@@ -2,9 +2,15 @@ body {
   max-width: 320px;
   margin: auto;
   background: #ddd;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Unbounded', cursive;
 }
 
 img {
   display: block;
   max-width: 100%;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
 }
