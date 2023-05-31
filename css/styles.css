@@ -1,7 +1,7 @@
 body {
   max-width: 320px;
   margin: auto;
-  background: #ddd;
+  background: #e8e8e8;
   font-family: 'Poppins', sans-serif;
   font-family: 'Unbounded', cursive;
 }
@@ -17,5 +17,22 @@ p {
 
 h2 {
   text-align: center;
-  font-size: 50px;
+  font-size: 30px;
+}
+
+.logo {
+  max-width: 100%;
+}
+
+.contact {
+  text-align:center;
+}
+
+a {
+  display:flex;
+  flex-direction: column;
+  align-items: baseline;
+  text-decoration: none;
+  color:black;
+  border-bottom: 1px solid black;
 }
