@@ -1,7 +1,6 @@
 body {
   max-width: 320px;
   margin: auto;
-  background: #e8e8e8;
   font-family: 'Poppins', sans-serif;
   font-family: 'Unbounded', cursive;
 }
@@ -18,10 +17,17 @@ p {
 h2 {
   text-align: center;
   font-size: 30px;
+  margin: 130px 0px;
+  background-image:url(../img/titles_bg.png);
+  background-size:300px;
+  background-repeat:no-repeat;
+  background-position: center;
+  padding: 135px 0px;
 }
 
 .logo {
   max-width: 100%;
+  padding-top: 60px;
 }
 
 .contact {
@@ -33,6 +39,12 @@ a {
   flex-direction: column;
   align-items: baseline;
   text-decoration: none;
+  font-size: 20px;
   color:black;
   border-bottom: 1px solid black;
+}
+
+hr {
+  margin: 50px 0px;
+  border: 1px solid black;
 }
