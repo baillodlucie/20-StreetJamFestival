@@ -7,6 +7,9 @@ body {
   background-position: center;
   background-repeat: repeat;
 }
+header {
+  padding-top:20px; 
+}
 
 main, header, footer {
   background: #ffffff;
@@ -20,8 +23,7 @@ img {
 
 p {
   font-family: 'Poppins', sans-serif;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 0px 20px 20px 20px;
 }
 
 h2 {
@@ -31,7 +33,7 @@ h2 {
   background-size: 350px;
   background-repeat: no-repeat;
   background-position: center;
-  padding: 135px 0px;
+  padding: 160px 0px;
   margin: 0;
 }
 
@@ -52,7 +54,7 @@ h2:hover {
   top: 110px;
 }
 
-.contact {
+.contact, .mail {
   text-align: center;
 }
 
@@ -76,11 +78,23 @@ hr {
   border: 1px solid black;
 }
 
+.section-streetfood {
+  padding-bottom: 10px;
+  margin: 0px;
+}
+
 .footer-title {
   background-image:url(../img/contact_bg.png);
-  background-size:300px;
+  background-size: 300px;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.footer-logo {
+  max-width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 h1 {
