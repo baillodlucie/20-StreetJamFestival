@@ -3,6 +3,14 @@ body {
   margin: auto;
   font-family: 'Poppins', sans-serif;
   font-family: 'Unbounded', cursive;
+  background-image: url(../img/background.png);
+  background-position: center;
+  background-repeat: repeat;
+}
+
+main, header, footer {
+  background: #ffffff;
+  background-blend-mode: 60%;
 }
 
 img {
@@ -12,15 +20,17 @@ img {
 
 p {
   font-family: 'Poppins', sans-serif;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 h2 {
   text-align: center;
   font-size: 30px;
   margin: 130px 0px;
-  background-image:url(../img/titles_bg.png);
-  background-size:300px;
-  background-repeat:no-repeat;
+  background-image: url(../img/titles_bg.png);
+  background-size: 300px;
+  background-repeat: no-repeat;
   background-position: center;
   padding: 135px 0px;
 }
@@ -47,4 +57,11 @@ a {
 hr {
   margin: 50px 0px;
   border: 1px solid black;
+}
+
+.footer-title {
+  background-image:url(../img/contact_bg.png);
+  background-size:300px;
+  background-repeat:no-repeat;
+  background-position: center;
 }
