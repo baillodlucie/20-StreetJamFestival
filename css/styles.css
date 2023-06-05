@@ -27,12 +27,17 @@ p {
 h2 {
   text-align: center;
   font-size: 30px;
-  margin: 130px 0px;
   background-image: url(../img/titles_bg.png);
-  background-size: 300px;
+  background-size: 350px;
   background-repeat: no-repeat;
   background-position: center;
   padding: 135px 0px;
+  margin: 0;
+}
+
+h2:hover {
+  font-size: 35px;
+  transition: font-size 0.4s;
 }
 
 .logo {
@@ -40,8 +45,15 @@ h2 {
   padding-top: 60px;
 }
 
+.text-logo {
+  position: absolute;
+  width: 284px;
+  animation: animation-logo 10s infinite linear;
+  top: 110px;
+}
+
 .contact {
-  text-align:center;
+  text-align: center;
 }
 
 a {
@@ -54,6 +66,11 @@ a {
   border-bottom: 1px solid black;
 }
 
+a:hover {
+  font-size: 22px;
+  transition: font-size 0.4s;
+}
+
 hr {
   margin: 50px 0px;
   border: 1px solid black;
@@ -62,6 +79,21 @@ hr {
 .footer-title {
   background-image:url(../img/contact_bg.png);
   background-size:300px;
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   background-position: center;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes animation-logo {
+  0% {
+    transform: rotate(0)
+  }
+  100% {
+    transform: rotate(360deg)
+  }
 }
