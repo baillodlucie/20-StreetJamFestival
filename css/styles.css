@@ -8,7 +8,7 @@ body {
   background-repeat: repeat;
 }
 header {
-  padding-top:20px; 
+  padding-top: 20px; 
 }
 
 main, header, footer {
@@ -42,6 +42,11 @@ h2:hover {
   transition: font-size 0.4s;
 }
 
+h3 {
+    text-align: center;
+    font-size: 16px;
+}
+
 .logo {
   max-width: 100%;
   padding-top: 60px;
@@ -49,7 +54,7 @@ h2:hover {
 
 .text-logo {
   position: absolute;
-  width: 284px;
+  width: 310px;
   animation: animation-logo 10s infinite linear;
   top: 110px;
 }
@@ -64,8 +69,8 @@ a {
   align-items: baseline;
   text-decoration: none;
   font-size: 20px;
-  color:black;
-  border-bottom: 1px solid black;
+  color:#000000;
+  border-bottom: 1px solid #000000;
 }
 
 a:hover {
@@ -75,7 +80,7 @@ a:hover {
 
 hr {
   margin: 50px 0px;
-  border: 1px solid black;
+  border: 1px solid #000000;
 }
 
 .section-streetfood {
@@ -84,7 +89,7 @@ hr {
 }
 
 .footer-title {
-  background-image:url(../img/contact_bg.png);
+  background-image: url(../img/contact_bg.png);
   background-size: 300px;
   background-repeat: no-repeat;
   background-position: center;
