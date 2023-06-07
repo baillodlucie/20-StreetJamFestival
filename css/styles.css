@@ -7,24 +7,29 @@ body {
   background-position: center;
   background-repeat: repeat;
 }
+
 header {
   padding-top: 20px; 
 }
 
-main, header, footer {
-  background: #ffffff;
-  background-blend-mode: 60%;
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-img {
-  display: block;
+.logo {
   max-width: 100%;
+  padding-top: 60px;
 }
 
-p {
-  font-family: 'Poppins', sans-serif;
-  padding: 0px 20px 20px 20px;
+.text-logo {
+  position: absolute;
+  width: 310px;
+  animation: animation-logo 10s infinite linear;
+  top: 110px;
 }
+
 
 h2 {
   text-align: center;
@@ -47,16 +52,19 @@ h3 {
     font-size: 16px;
 }
 
-.logo {
-  max-width: 100%;
-  padding-top: 60px;
+main, header, footer {
+  background: #ffffff;
+  background-blend-mode: 60%;
 }
 
-.text-logo {
-  position: absolute;
-  width: 310px;
-  animation: animation-logo 10s infinite linear;
-  top: 110px;
+img {
+  display: block;
+  max-width: 100%;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  padding: 0px 20px 20px 20px;
 }
 
 .contact, .mail {
@@ -71,11 +79,6 @@ a {
   font-size: 20px;
   color:#000000;
   border-bottom: 1px solid #000000;
-}
-
-a:hover {
-  font-size: 22px;
-  transition: font-size 0.4s;
 }
 
 hr {
@@ -95,17 +98,6 @@ hr {
   background-position: center;
 }
 
-.footer-logo {
-  max-width: 30%;
-  margin: auto;
-}
-
-h1 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 @keyframes animation-logo {
   0% {
     transform: rotate(0)
@@ -113,4 +105,20 @@ h1 {
   100% {
     transform: rotate(360deg)
   }
+
+}
+
+.mail {
+  border: none;
+  font-size: 14px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  padding: 0px 0px 0px 0px;
+}
+
+.footer-logo {
+  max-width: 30%;
+  margin: auto;
+  padding-top: 30px;
 }
